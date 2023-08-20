@@ -1,0 +1,16 @@
+#articles {
+  strong a {
+    color: rgb(50,121,183);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+
+  }
+
+  strong a:hover {
+    color: rgb(34,82,124);
+    text-decoration: underline;
+  }
+
+}

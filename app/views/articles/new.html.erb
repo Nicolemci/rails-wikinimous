@@ -1,0 +1,12 @@
+<%= render "navbar" %>
+
+<div id="articles">
+  <h1>New article</h1>
+
+  <%= render "form", article: @article %>
+
+  <br>
+  <div class="fa-sharp">
+    <%= link_to "Back to articles", root_path %>
+  </div>
+</div>
